@@ -1,0 +1,54 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the whole page */
+body {
+  background-color: #f4f4f4; /* Background color */
+  font-family: Arial, sans-serif; /* Font family */
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Background color */
+  color: white; /* Text color */
+  text-align: center; /* Text alignment */
+  padding: 1em 0; /* Padding */
+}
+
+/* Section styles */
+section, article {
+  background-color: #fff; /* Background color */
+  margin: 20px; /* Margin */
+  padding: 20px; /* Padding */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Box shadow */
+}
+
+/* Headings within sections */
+h2 {
+  margin-bottom: 20px; /* Margin */
+  padding-bottom: 10px; /* Padding */
+  border-bottom: 1px solid #ccc; /* Border line */
+}
+
+/* Links */
+a {
+  color: #007BFF; /* Link color */
+  text-decoration: none; /* No underline */
+}
+
+/* Style for hovered links */
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer styles */
+footer {
+  text-align: center; /* Text alignment */
+  padding: 10px; /* Padding */
+  background-color: #333; /* Background color */
+  color: white; /* Text color */
+}
